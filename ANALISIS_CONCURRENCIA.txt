@@ -1,1 +1,1 @@
-Se puede presentar condiciÛn de carrera mientras una persona consulta totales pero otra esta aÒadiendo o borrando platos.
+Se puede presentar condici√≥n de carrera mientras una persona consulta totales pero otra esta a√±adiendo o borrando platos, lo que causaria que como las transacciones no han sido completadas, haya inconsistencia. Por ejemplo 2 personas pueden pedir una pizza al mismo tiempo  y debido  a la condici√≥n de carrera es posible que el resultado en los pedidos totales de pizza sea 1 y no de 2 como se esperaria que fuera.
